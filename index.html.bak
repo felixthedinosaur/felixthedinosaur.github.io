@@ -9,15 +9,16 @@
 	
 	<body>
 		<div id="nav">
-		<i>---<br>
-		---<br>
-		---<br></i>
 			<span id="logo">Felix The Dino</span>
-			<ul>
+			<ul class="selection">
 				<li><a href="index.html">Social Media</a></li>
 				<li><a href="index.html">Applications</a></li>
 				<li><a href="index.html">Story</a></li>
 				<li><a href="index.html">Home</a></li>
+			</ul>
+			<ul class="applications">
+				<li><a href="index.html">adadad</a></li>
+				<li><a href="index.html">adadad</a></li>
 			</ul>
 		</div>
 	
