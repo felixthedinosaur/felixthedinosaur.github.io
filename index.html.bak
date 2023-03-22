@@ -9,6 +9,9 @@
 	
 	<body>
 		<div id="nav">
+		<i>---<br>
+		---<br>
+		---<br></i>
 			<span id="logo">Felix The Dino</span>
 			<ul>
 				<li><a href="index.html">Social Media</a></li>
