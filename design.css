@@ -95,5 +95,6 @@ h1 {
 	text-align: center;
 	color: silver;
 	font-size: 5em;
-	margin: 4em;
+	padding: 1em;
+	margin: 3em auto;
 }

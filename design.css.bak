@@ -74,6 +74,7 @@
 	#nav #logo {
 		font-size: 20px;
 		margin: 60px;
+		line-height: 100px;
 	}
 	
 	#nav ul {
@@ -86,6 +87,7 @@
 	
 	#nav ul li a {
 		font-size: 14px;
+		line-height: 100px;
 	}
 }
 
@@ -93,5 +95,6 @@ h1 {
 	text-align: center;
 	color: silver;
 	font-size: 5em;
-	margin: 4em;
+	padding: 2em;
+	margin: 2em auto;
 }
