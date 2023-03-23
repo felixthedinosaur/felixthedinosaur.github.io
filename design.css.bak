@@ -59,13 +59,19 @@
 
 #nav ul li ul li {
 	float: left;
-	margin: -2px 10px;
+	min-width: 200px;
+	margin: -10px 15px;
 }
 
 #nav ul li ul li a {
-	font-size: 20px;
-	padding: 14px 16px;
+	font-size: 15px;
+	padding: 12px 14px;
 	text-transform: none;
+}
+
+#nav ul li ul li a:hover {
+	background-color: green;
+	/*text-decoration: underline;*/
 }
 
 #nav ul li:hover ul {
@@ -180,5 +186,5 @@
 	text-align: center;
 	color: silver;
 	font-size: 80px;
-	margin: 2em;
+	margin: 4em;
 }
