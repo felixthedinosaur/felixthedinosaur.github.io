@@ -67,7 +67,7 @@
 	text-transform: none;
 }
 
-#nav ul li:hover ul , #nav ul li ul li a:hover{
+#nav ul li:hover ul {
 	display: block;
 	transition: 0.5s;
 }
@@ -132,10 +132,14 @@
 	}
 }
 
-h1 {
+#content {
+	height: 100vh;
+	background-color: lightgreen;
+	padding: 10em;
+}
+
+#content h1 {
 	text-align: center;
-	color: silver;
-	font-size: 5em;
-	padding: 1em;
-	margin: 3em auto;
+	color: white;
+	font-size: 100px;
 }
