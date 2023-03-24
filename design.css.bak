@@ -176,7 +176,7 @@
 
 #content #about_me h1 a {
 	background-color: lightgreen;
-	color: lightblack;
+	color: brown;
 	text-decoration: none;
 	margin-top: 50px;
 	padding: 5px 10px;
@@ -192,7 +192,7 @@
 #content #content_ {
 	height: 900px;
 	background-color: green;
-	border: 3px solid darkgreen;
+	border-top: 3px solid darkgreen;
 	padding: 1px;
 	z-index: -2;
 }
