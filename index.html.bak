@@ -12,12 +12,16 @@
 		<div id="nav">
 			<span id="logo">Felix The Dino</span>
 			<ul>
-				<li><a href="index.html">Social Media</a></li>
+				<li id="socialmedia"><a>Social Media</a>
+					<ul>
+						<li><a href="https://instagram.com/felixthedinosaur2022?igshid=ZDdkNTZiNTM=">Instagram</a></li>
+						<li><a href="#" target="blank">Discord Server</a></li>
+					</ul>
+				</li>
 				<li><a>Applications</a>
 					<ul>
 						<li><a href="https://discord.com/oauth2/authorize?client_id=1045401719326134292&scope=bot&permissions=1099511627775" target="blank">Discord Bot</a></li>
 						<li><a href="#">Endless Runner</a></li>
-						<li><a href="#">Steam</a></li>
 					</ul>
 				</li>
 				<li><a href="#">Archive</a></li>			
@@ -29,8 +33,10 @@
 		<div id="content">
 			<div id="about_me">
 				<h1>I'm Felix
-				<p>bagbou abogabz piabgpi bubup ibpui abupigb paub urbu buraw gbubug arbu argburgba rb gaba rbpu agpbrgbapb bpa rpb w</p></h1>
-				<img src="BusinessFelix.jpg">
+					<p>bagbou abogabz piabgpi bubup ibpui abupigb paub urbu buraw gbubug arbu argburgba rb gaba rbpu agpbrgbapb bpa rpb w</p>
+					<a href="index.html">Learn more</a>
+				</h1>
+				<img src="Untitled.png">
 			</div>
 			<div id="content_">
 				<h1>THIS WEBSITE IS STILL BEING MADE!</h1>
