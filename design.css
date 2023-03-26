@@ -2,16 +2,17 @@
 	padding: 0px;
 	margin: 0px;
 	box-sizing: border-box;
+	user-select: none;
 }
 
 #nav {
-	background-color: green;
+	background-color: #36802d;
 	width: 100%;
 	height: 80px;
 	position: sticky;
 	top: 0;
 	font-family: sans-serif;
-	border-bottom: 4px solid darkgreen;
+	border-bottom: 4px solid #234d20;
 	z-index: 1;
 }
 
@@ -54,7 +55,7 @@
 #nav ul li ul {
 	display: none;
 	position: absolute;
-	background-color: darkgreen;
+	background-color: #234d20;
 	border-radius: 0px 0px 12px 12px;
 }
 
@@ -75,7 +76,7 @@
 }
 
 #nav ul li ul li a:hover {
-	background-color: darkgreen;
+	background: none;
 	text-decoration: underline;
 }
 
@@ -106,7 +107,98 @@
 	cursor: pointer;
 }
 
-@media (max-width: 1140px) {
+/* ------------------------------------- CONTENT ---------------------------------------- */
+
+#content {
+	/*height: 150vh;*/
+	/*background-color: green;*/
+}
+
+.container_limegreen {
+    background-color: #77ab59;
+    z-index: -1;
+}
+
+#content #about_me {
+	color: white;
+	width: 85vw;
+	height: 40vw;
+	position: relative;
+	margin: 0 auto;
+	padding: 9vw 10vw;
+}
+
+#content #about_me h1 {
+	/*background-color: black;
+	position: absolute;
+	top: 180px;
+	left: 20%;*/
+	float:left;
+	/*margin: 190px 40px 0px 420px;*/	
+	font-size: 4vw;
+}
+
+#content #about_me h1 p {
+	width: 45vw;
+	margin-top: 0.1vw;
+	font-size: 2vw;
+}
+
+#content #about_me h1 a {
+	background-color: #c9df8a;
+	color: darkgreen;
+	text-decoration: none;
+	margin-top: 1vw;
+	padding: 0.5vw 1vw;
+	border-radius: 0.5vw;
+	font-size: 2vw;
+}
+
+#content #about_me img {
+	width: 18vw;
+	/*margin: 170px 250px 0px 20px;*/
+}
+
+#content #content_ {
+	height: 200vh;
+	background-color: #36802d;
+	border-top: 3px solid #234d20;
+	padding: 1px;
+	z-index: -2;
+}
+
+#content #content_ #info_boxes {
+	background-color: ;
+	margin: 40px auto;
+	width: 95vw; /* 1800px */
+	height: 350px;
+	text-align: center;
+}
+
+#content #content_ #info_boxes div {
+	background-color: darkgreen;
+	display: inline-block;
+	width: 41vw;
+	height: 300px;
+	margin: 20px 30px 20px 30px;
+	padding: 10px;
+	border-radius: 12px;
+	border: 2px solid #234d20;
+	text-align: center;
+	color: white;
+	font-size: 1.5vw; /* 25px */
+}
+
+#content #content_ h1 {
+	text-align: center;
+	color: silver;
+	font-size: 8vw;
+	margin: 2em;
+}
+
+/* --------------------------------------- MEDIA ---------------------------------------- */
+
+@media (max-width: 1150px) {
 	#nav #logo {
 		font-size: 25px;
 		margin: 80px;
@@ -133,7 +225,7 @@
 	}
 }
 
-@media (max-width: 940px) {
+@media (max-width: 955px) {
 	/*#nav {
 		height: 100px;
 	}*/
@@ -164,74 +256,31 @@
 	#nav ul li ul li a {
 		font-size: 14px;
 	}
+	
+	#content #content_ #info_boxes {
+		background-color: ;
+		margin: 40px auto;
+		width: 95vw; /* 1800px */
+		height: 700px;
+		text-align: center;
+	}
+
+	#content #content_ #info_boxes div {
+		background-color: darkgreen;
+		display: inline-block;
+		width: 60vw;
+		height: 300px;
+		margin: 20px 30px 20px 30px;
+		padding: 10px;
+		border-radius: 12px;
+		border: 2px solid #234d20;
+		text-align: center;
+		color: white;
+		font-size: 2vw; /* 25px */
+	}
 }
 
-#content {
-	/*height: 150vh;*/
-	/*background-color: green;*/
-}
-
-.container_limegreen {
-    background-color: limegreen;
-    z-index: -1;
-}
-
-#content #about_me {
-	color: white;
-	width: 85vw;
-	height: 40vw;
-	position: relative;
-	margin: 0 auto;
-	padding: 9vw 10vw;
-}
-
-#content #about_me h1 {
-	/*background-color: black;
-	position: absolute;
-	top: 180px;
-	left: 20%;*/
-	float:left;
-	/*margin: 190px 40px 0px 420px;*/	
-	font-size: 4vw;
-}
-
-#content #about_me h1 p {
-	width: 45vw;
-	margin-top: 0.1vw;
-	font-size: 2vw;
-}
-
-#content #about_me h1 a {
-	background-color: lightgreen;
-	color: brown;
-	text-decoration: none;
-	margin-top: 1vw;
-	padding: 0.5vw 1vw;
-	border-radius: 0.5vw;
-	font-size: 2vw;
-}
-
-#content #about_me img {
-	width: 18vw;
-	/*margin: 170px 250px 0px 20px;*/
-}
-
-#content #content_ {
-	height: 1000px;
-	background-color: green;
-	border-top: 3px solid darkgreen;
-	padding: 1px;
-	z-index: -2;
-}
-
-#content #content_ h1 {
-	text-align: center;
-	color: silver;
-	font-size: 8vw;
-	margin: 4em;
-}
-
-@media (max-width: 750px) {
+@media (max-width: 765px) {
 	#nav {
 		height: 60px;
 	}
@@ -338,5 +387,27 @@
 	
 	#content #about_me img {
 		width: 24vw;
+	}
+	
+	#content #content_ #info_boxes {
+		background-color: ;
+		margin: 40px auto;
+		width: 95vw; /* 1800px */
+		height: 700px;
+		text-align: center;
+	}
+
+	#content #content_ #info_boxes div {
+		background-color: darkgreen;
+		display: inline-block;
+		width: 80vw;
+		height: 300px;
+		margin: 20px 30px 20px 30px;
+		padding: 10px;
+		border-radius: 12px;
+		border: 2px solid #234d20;
+		text-align: center;
+		color: white;
+		font-size: 3vw; /* 25px */
 	}
 }
