@@ -19,18 +19,30 @@
 			<ul>
 				<li><a href="#">Home</a></li>
 				<li><a href="#">Story</a></li>
-				<li><a href="#">Archive</a></li>			
+				<li><a href="#">Archive</a></li>	
+				
 				<li><input type="checkbox" id="app_check">
 					<label for="app_check" class="app_checkbtn"><a>Applications</a></label>
 					<ul>
-						<li><a href="https://discord.com/oauth2/authorize?client_id=1045401719326134292&scope=bot&permissions=1099511627775" target="blank">Discord Bot</a></li>
-						<li><a href="#">Endless Runner</a></li>
+						<label for="app_check" class="backbtn">
+							<i class="fa fa-arrow-left"></i>
+						</label>
+						<div class="nav_sublists">
+							<li><a href="https://discord.com/oauth2/authorize?client_id=1045401719326134292&scope=bot&permissions=1099511627775" target="blank">Discord Bot</a></li>
+							<li><a href="#">Endless Runner</a></li>
+						</div>
 					</ul>
 				</li>
+				
 				<li id="socialmedia"><a>Social Media</a>
 					<ul>
-						<li><a href="https://instagram.com/felixthedinosaur2022?igshid=ZDdkNTZiNTM=" target="blank">Instagram</a></li>
-						<li><a href="#" target="blank">Discord Server</a></li>
+						<label for="" class="backbtn">
+							<i class="fa fa-arrow-left"></i>
+						</label>	
+						<div class="nav_sublists">
+							<li><a href="https://instagram.com/felixthedinosaur2022?igshid=ZDdkNTZiNTM=" target="blank">Instagram</a></li>
+							<li><a href="#" target="blank">Discord Server</a></li>
+						</div>
 					</ul>
 				</li>
 			</ul>
@@ -49,10 +61,10 @@
 			<div id="content_">
 				<div id="info_boxes">
 					<div class="container_limegreen">
-						abc
+						Lorem ipsum dolor sit amet.
 					</div>					
 					<div class="container_limegreen">
-						abc
+						Lorem ipsum dolor sit amet.
 					</div>
 				</div>
 				<h1>THIS WEBSITE IS STILL BEING MADE!</h1>
